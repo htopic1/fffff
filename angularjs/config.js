@@ -1,0 +1,12 @@
+app.config(function($routeProvider){
+    $routeProvider
+    .when('/',{
+        templateUrl:'home/home.html'
+    })
+    .when('/productAdmin',{
+        templateUrl:'product/productAdmin.html'
+    })
+    .when('/login',{
+        templateUrl:'login/login.html'
+    });
+})
